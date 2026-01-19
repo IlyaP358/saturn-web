@@ -1,8 +1,278 @@
-<html>
- <head>
-   <title>Test</title>
- </head>
- <body>
-   <h1>Saturn Launcher</h1>
- </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturn Launcher - Lightweight Minecraft Launcher</title>
+    <meta name="description" content="Saturn Launcher - fast and lightweight console launcher for Minecraft with Forge/Fabric mods, shaders and auto-updates support">
+    <meta name="keywords" content="Minecraft, launcher, mods, Forge, Fabric, shaders, Saturn Launcher">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.png" alt="Saturn Launcher" class="nav-logo-img">
+                <span>Saturn Launcher</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#download">Download</a>
+                <a href="#security">Security</a>
+                <a href="#contacts">Contacts</a>
+                <a href="https://github.com/IlyaP358/saturn_launcher.git" class="github-link" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <img src="logo.png" alt="Saturn" class="hero-logo">
+                    Saturn Launcher
+                </h1>
+                <p class="hero-subtitle">Lightweight and fast launcher for Minecraft</p>
+                <p class="hero-description">
+                    Launch Minecraft with mods, shaders and servers without complications.
+                    Fully open-source, no ads and no data collection.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">Download</a>
+                    <a href="https://github.com/IlyaP358/saturn_launcher.git" class="btn btn-secondary" target="_blank">
+                        View on GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="screen_saturn.png" alt="Saturn Launcher Screenshot" class="hero-main-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- What is Saturn Launcher -->
+    <section class="about">
+        <div class="container">
+            <h2>What is Saturn Launcher?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        <strong>Saturn Launcher</strong> is a lightweight console launcher for Minecraft,
+                        written in Python. It allows you to quickly and easily launch Minecraft
+                        with support for mods, shaders and custom servers.
+                    </p>
+                    <p>
+                        Perfect for players who prefer a minimalist approach
+                        and want full control over the game launch process.
+                    </p>
+                    <div class="platform-support">
+                        <h3>Supported platforms:</h3>
+                        <div class="platforms">
+                            <div class="platform">
+                                <img src="windows_logo.png" alt="Windows" class="platform-icon">
+                                <span>Windows</span>
+                            </div>
+                            <div class="platform">
+                                <img src="linux_logo.png" alt="Linux" class="platform-icon">
+                                <span>Linux</span>
+                            </div>
+                            <div class="platform coming-soon">
+                                <img src="apple_logo.png" alt="macOS" class="platform-icon">
+                                <span>macOS (coming soon)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">⚡</span>
+                        <span>Fast and lightweight</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🔧</span>
+                        <span>Open-source</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🚫</span>
+                        <span>No ads</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🔄</span>
+                        <span>Auto-updates</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="minecraft.svg" alt="Minecraft" class="feature-icon">
+                    <h3>Minecraft Versions</h3>
+                    <p>Support for all official Minecraft versions, including snapshots</p>
+                </div>
+                <div class="feature-card">
+                    <img src="github_logo.png" alt="GitHub" class="feature-icon">
+                    <h3>Forge & Fabric</h3>
+                    <p>Automatic installation and launch with Forge or Fabric mods</p>
+                </div>
+                <div class="feature-card">
+                    <img src="modrinth_logo.png" alt="Modrinth" class="feature-icon">
+                    <h3>Mods</h3>
+                    <p>Download and manage mods from Modrinth with search</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>Shaders</h3>
+                    <p>Shaders can be downloaded directly in the launcher</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3>RAM Settings</h3>
+                    <p>Flexible RAM allocation with auto-detection</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Updates</h3>
+                    <p>Automatic launcher updates with one-click</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to download and run -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2>How to Download and Run</h2>
+            <div class="download-content">
+                <div class="download-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Download the launcher</h3>
+                            <p>Go to the <a href="https://github.com/IlyaP358/saturn_launcher/releases" target="_blank">releases page</a> and download the appropriate version for your OS</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Create a folder</h3>
+                            <p>Create a dedicated folder (e.g., <code>SaturnLauncher</code>) and place the downloaded file there</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Run the launcher</h3>
+                            <p>For Linux make the file executable: <code>chmod +x saturn_linux</code>, then run <code>./saturn_linux</code></p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Play!</h3>
+                            <p>Select a Minecraft version, enter your username and enjoy the game</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-links">
+                    <a href="https://github.com/IlyaP358/saturn_launcher/releases" class="btn btn-primary" target="_blank">
+                        Download from GitHub Releases
+                    </a>
+                    <p class="download-note">
+                        Available versions for Windows (.exe) and Linux (binary)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security and trust -->
+    <section id="security" class="security">
+        <div class="container">
+            <h2>Security and Trust</h2>
+            <div class="security-content">
+                <div class="security-main">
+                    <div class="security-icon">🔒</div>
+                    <h3>Why is Saturn Launcher secure?</h3>
+                    <p>
+                        We believe that a Minecraft launcher should be as transparent and secure as possible.
+                        Therefore, Saturn Launcher is fully open-source and doesn't collect any user data.
+                    </p>
+                </div>
+                <div class="security-features">
+                    <div class="security-item">
+                        <span class="security-check">✓</span>
+                        <span>Fully open-source code</span>
+                    </div>
+                    <div class="security-item">
+                        <span class="security-check">✓</span>
+                        <span>Source code available on GitHub</span>
+                    </div>
+                    <div class="security-item">
+                        <span class="security-check">✓</span>
+                        <span>No personal data collection</span>
+                    </div>
+                    <div class="security-item">
+                        <span class="security-check">✓</span>
+                        <span>No built-in ads</span>
+                    </div>
+                    <div class="security-item">
+                        <span class="security-check">✓</span>
+                        <span>No hidden payments or donations</span>
+                    </div>
+                    <div class="security-item">
+                        <span class="security-check">✓</span>
+                        <span>Offline operation without internet</span>
+                    </div>
+                </div>
+                <div class="github-link-large">
+                    <a href="https://github.com/IlyaP358/saturn_launcher.git" class="btn btn-secondary" target="_blank">
+                        View source code on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2>Contacts</h2>
+            <div class="contacts-content">
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <strong>Email:</strong>
+                        <a href="mailto:illia.pukalov@teleinformatika.eu">illia.pukalov@teleinformatika.eu</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img src="github_logo.png" alt="GitHub" class="contact-icon">
+                    <div>
+                        <strong>GitHub:</strong>
+                        <a href="https://github.com/IlyaP358/saturn_launcher.git" target="_blank">github.com/IlyaP358/saturn_launcher</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Saturn Launcher. GNU GPL License.</p>
+            <p>Made with ❤️ for the Minecraft community</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
