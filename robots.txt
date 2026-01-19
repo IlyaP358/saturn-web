@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ilyap358.github.io/saturn-web/sitemap.xml
